@@ -1,0 +1,5 @@
+add_test([=[Test_Adding.Fraction_test]=]  [==[/Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug/PR1_3_tests]==] [==[--gtest_filter=Test_Adding.Fraction_test]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Test_Adding.Fraction_test]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Test_Multiplying.Fraction_test]=]  [==[/Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug/PR1_3_tests]==] [==[--gtest_filter=Test_Multiplying.Fraction_test]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Test_Multiplying.Fraction_test]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  PR1_3_tests_TESTS Test_Adding.Fraction_test Test_Multiplying.Fraction_test)

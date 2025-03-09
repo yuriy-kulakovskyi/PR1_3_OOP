@@ -1,0 +1,57 @@
+Start testing: Mar 09 19:27 EET
+----------------------------------------------------------
+1/2 Testing: Test_Adding.Fraction_test
+1/2 Test: Test_Adding.Fraction_test
+Command: "/Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug/PR1_3_tests" "--gtest_filter=Test_Adding.Fraction_test" "--gtest_also_run_disabled_tests"
+Directory: /Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug
+"Test_Adding.Fraction_test" start time: Mar 09 19:27 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/lib/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Test_Adding.Fraction_test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Test_Adding
+[ RUN      ] Test_Adding.Fraction_test
+[       OK ] Test_Adding.Fraction_test (0 ms)
+[----------] 1 test from Test_Adding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Test_Adding.Fraction_test" end time: Mar 09 19:27 EET
+"Test_Adding.Fraction_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Test_Multiplying.Fraction_test
+2/2 Test: Test_Multiplying.Fraction_test
+Command: "/Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug/PR1_3_tests" "--gtest_filter=Test_Multiplying.Fraction_test" "--gtest_also_run_disabled_tests"
+Directory: /Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/cmake-build-debug
+"Test_Multiplying.Fraction_test" start time: Mar 09 19:27 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/yura_kulakovskyi/Documents/C++/OOP/PR1/PR1_3/lib/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Test_Multiplying.Fraction_test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Test_Multiplying
+[ RUN      ] Test_Multiplying.Fraction_test
+[       OK ] Test_Multiplying.Fraction_test (0 ms)
+[----------] 1 test from Test_Multiplying (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Test_Multiplying.Fraction_test" end time: Mar 09 19:27 EET
+"Test_Multiplying.Fraction_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 09 19:27 EET
